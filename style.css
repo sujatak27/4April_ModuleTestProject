@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    padding: 100px;
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+  }
+  
+  .container h2 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 20px; 
+  }
+  
+  #employeeForm {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .form-group {
+    flex: 1; 
+    margin-right: 10px; 
+  }
+  
+  label {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    display: block; 
+  }
+  
+  input {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    background-color: black;
+  
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Add margin at the top */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #messages {
+    margin-top: 20px;
+  }
+  
+  .success-message {
+    color: green;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .employee-item {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #000000;
+  }
